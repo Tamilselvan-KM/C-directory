@@ -1,0 +1,199 @@
+searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+  searchForm.classList.toggle('active');
+}
+
+let loginForm = document.querySelector('.login-form-container');
+
+document.querySelector('#login-btn').onclick = () =>{
+  loginForm.classList.toggle('active');
+}
+
+document.querySelector('#close-login-btn').onclick = () =>{
+  loginForm.classList.remove('active');
+}
+
+let menu = document.getElementById('menu-btn');
+let close=document.getElementById('close-btn');
+let items = document.querySelector('.menu-items');
+
+menu.addEventListener('click', (e)=>{
+    items.classList.add('active');
+    close.style.display = "inline-block";
+    menu.style.display = "none";
+});
+close.addEventListener('click', (e)=>{
+    items.classList.remove('active');
+    menu.style.display = "inline-block";
+    close.style.display = "none";
+});
+window.onscroll = () =>{
+
+  searchForm.classList.remove('active');
+
+  if(window.scrollY > 80){
+    document.querySelector('.header .header-2').classList.add('active');
+  }else{
+    document.querySelector('.header .header-2').classList.remove('active');
+  }
+
+}
+
+window.onload = () =>{
+
+  if(window.scrollY > 80){
+    document.querySelector('.header .header-2').classList.add('active');
+  }else{
+    document.querySelector('.header .header-2').classList.remove('active');
+  }
+
+  fadeOut();
+
+}
+
+function loader(){
+  document.querySelector('.loader-container').classList.add('active');
+}
+
+function fadeOut(){
+  setTimeout(loader, 4000);
+}
+
+
+var swiper = new Swiper(".books-slider", {
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".featured-slider", {
+  spaceBetween: 10,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    450: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});
+
+var swiper = new Swiper(".arrivals-slider", {
+  spaceBetween: 10,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".reviews-slider", {
+  spaceBetween: 10,
+  grabCursor:true,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+var swiper = new Swiper(".blogs-slider", {
+  spaceBetween: 10,
+  grabCursor:true,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+
+        <div class="menu-items">
+            <a href="" class="menu-link" onclick="indexAlert('Author Info')">About Author</a>
+            <a href="" class="menu-link" onclick="indexAlert('Events')">Events</a>
+            <a href="" class="menu-link" onclick="indexAlert('Blog')">Blog</a>
+            <a href="" class="menu-link" onclick="indexAlert('Essay')">Essay</a>
+            <a href="" class="menu-link" onclick="indexAlert('Articles')">Articles</a>
+            <a href="" class="menu-link" onclick="indexAlert('Potery')">Potery</a>
+            <a href="" class="menu-link" onclick="indexAlert('Daily Potery')">Daily Potery</a>
+        </div>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="close-btn" class="fas fa-times" style="display:none;"></div>
+
+        <div class="menu-items">
+            <a href="author.php" class="menu-link">About Author</a>
+            <a href="events.php" class="menu-link">Events</a>
+            <a href="blog.php" class="menu-link">Blog</a>
+            <a href="essay.php" class="menu-link">Essay</a>
+            <a href="article.php" class="menu-link">Articles</a>
+            <a href="poetry.php" class="menu-link">Potery</a>
+            <a href="conentviewuser.php" class="menu-link">Daily Potery</a>
+        </div>

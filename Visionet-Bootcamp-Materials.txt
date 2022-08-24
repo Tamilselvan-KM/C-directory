@@ -1,0 +1,392 @@
+Visionet-Feb22-LINUX-Scripting
+
+LINUX Curriculum:
+
+
+During the course of this Bootcamp, the following Topics will be covered:
+
+
+
+Linux built-in commands.
+- Creating files and folders.
+- Editors.
+- Copying, moving, deleting
+- File Permissions
+- grep
+- curl, wget, ipconfig, whois, netstat, hostname (networking commands)
+- chmod, chown, chgrp
+- pipes
+
+Use the proper permissions on your shell scripts.
+
+Create and use variables in your scripts.
+
+Use shell built-in commands and operating system commands.
+
+Special Variables
+
+Exit Statuses, Return Codes, String Test Conditionals, More Special Variables.
+
+Test and string manipulation
+
+Positional Parameters, Arguments, for Loops, Special Parameters
+
+Loops
+
+Standard Input, Standard Output, and Standard Error - Part I
+
+Functions
+
+Parsing Command Line Options with getopts
+
+Cut and Awk
+
+Sort and Uniq
+Reference Materials:
+
+
+Reference PDF Materials on Linux and Shell Scripting: https://drive.google.com/drive/u/0/folders/1fZi3-tAdY_60lxKhQrOGewPdbcxrNSYU 
+
+Ubuntu Linux for beginners - https://ubuntu.com/tutorials/command-line-for-beginners#1-overview 
+
+Linux Commands Handbook (reference Guide) - https://www.freecodecamp.org/news/the-linux-commands-handbook/ 
+
+Introduction to Linux Operating System - https://www.youtube.com/watch?v=V1y-mbWM3B8 
+
+Shell Scripting Crash Course - https://www.youtube.com/watch?v=GtovwKDemnI 
+
+Visionet-Feb22-HTML-CSS-JavaScript
+HTML/CSS/JavaScript - Bootcamp Curriculum:
+
+
+In the course of the Bootcamp, the following topics will be covered:
+
+
+
+HTML Basics
+
+Creating an HTML form - common controls
+
+Form Validation
+
+CSS Introduction
+
+CSS Class and Id
+
+Inline, Internal and External CSS
+
+Common Styling using CSS
+
+Layouts - Grids, Flexbox
+
+Icons, Borders, Shadows
+
+Introduction to Responsive
+
+Introduction to JavaScript
+
+Inline and External JavaScript
+
+Conditions and Iterations
+
+Arrays
+
+Functions
+
+Error Handling
+
+Events
+
+Events and DOM Objects
+
+Popups
+
+Cookies
+
+
+
+
+
+Reference Materials:
+
+
+https://www.youtube.com/watch?v=QMnv3QrjZoU – HTML/CSS for Beginners
+
+https://www.linkedin.com/learning/html-essential-training-4/responsive-images?autoAdvance=true&autoSkip=false&autoplay=true&resume=false – CSS from LinkedIn Learning
+
+https://www.linkedin.com/learning/css-essential-training-3/html-and-css?autoAdvance=true&autoSkip=false&autoplay=true&resume=false – CSS from LinkedIn Learning
+
+https://www.youtube.com/watch?v=W6NZfCO5SIk – JavaScript in 1 hour
+
+https://www.learn-js.org/ - Important Concepts
+
+https://eloquentjavascript.net/ - JavaScript Book 
+
+https://www.youtube.com/watch?v=PkZNo7MFNFg – JavaScript for Beginners
+
+https://www.youtube.com/watch?v=QE1YQnhntgw – Introduction to DOM Events
+
+
+SQL Server
+
+
+Bootcamp Curriculum: In the course of the Bootcamp, the following topics will be covered:
+
+
+
+RDBMS Concepts
+
+Designing a Schema
+
+Normalisation
+
+SQL
+
+Types of Joins, Grouping, Ordering
+
+Table updates
+
+Dynamic SQLs
+
+Writing Stored Procs
+
+Using Stored Procs with your .Net app
+
+Creating Triggers
+
+Creating Views
+
+
+Reference Material:
+
+
+https://www.linkedin.com/learning/querying-microsoft-sql-server-2019/change-database-context-with-use?autoAdvance=true&autoSkip=false&autoplay=true&resume=false  - Learn SQL
+
+https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5 - Learn Database Design and Normalisation
+
+https://www.quackit.com/sql_server/sql_server_2014/tutorial/sql_scripts.cfm - Basics of SQL Queries
+
+https://www.sqlshack.com/learn-sql-dynamic-sql/ - Learn Dynamic SQLs
+
+https://www.quackit.com/sql_server/sql_server_2014/tutorial/sql_server_stored_procedures.cfm - Learn SQL Server Stored Procs
+
+https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/create-a-stored-procedure?view=sql-server-ver15 – Stored Procedures
+
+https://www.sqlshack.com/triggers-in-sql-server/ - Learn Triggers
+
+https://www.quackit.com/sql_server/sql_server_2014/tutorial/sql_server_views.cfm - Learn about Views - Creating Views
+
+https://www.sqlshack.com/sql-view-a-complete-introduction-and-walk-through/ - Learn about Views
+
+Git / GitLab
+
+
+Bootcamp Curriculum: In the course of the Bootcamp, the following topics will be covered:
+
+
+
+Overview of SCM
+
+Installing and getting started with Git 
+
+Working a Repository
+
+Saving/Undoing/Rewriting Changes
+
+Branching
+
+Collaboration – Synching/Pull/Branches
+
+Managing Conflicts
+
+Reset/Checking out/Reverting
+
+Merging vs Rebasing 
+
+SCM with GitLab
+
+Projects and Groups
+
+Snippets
+
+
+
+
+
+Reference Material
+
+
+Git Essentials Training - https://www.linkedin.com/learning/git-essential-training-the-basics/use-git-version-control-software-to-manage-project-code?autoAdvance=true&autoSkip=false&autoplay=true&resume=true
+
+Reference book from Git: https://www.atlassian.com/git
+
+https://gitlab.edcast.com/create_account  -- Learn Gitlab
+
+https://www.linkedin.com/learning/learning-gitlab-2/version-control-and-more?autoAdvance=true&autoSkip=false&autoplay=true&resume=true – Learn Gitlab
+
+https://git-scm.com/doc -- Learn Git
+
+Azure Cloud 
+
+
+Bootcamp Curriculum: In the course of the Bootcamp, the following topics will be covered:
+
+
+
+Fundamentals of cloud
+- Compute, storage, memory, networking
+- Costing, scaling
+- Types of Clouds
+
+
+
+Start Your First Azure Virtual Machine (Windows)
+
+Understanding Core Azure Storage Products
+
+Understanding Core Azure Networking Products
+
+Create Your First Azure Virtual Network
+
+Managing Azure Storage Accounts
+
+Start Your First Azure Virtual Machine (Linux)
+
+Azure VPNs
+
+Understanding Azure Queues
+
+
+
+
+
+Reference Materials
+
+
+https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/ -- Azure Cloud Learning from Microsoft
+
+https://www.youtube.com/watch?v=tDuruX7XSac – Detailed Azure Cloud course from Edureka
+
+https://www.linkedin.com/learning/azure-understanding-the-big-picture-14020060/azure-from-a-10-000-foot-view?autoAdvance=true&autoSkip=false&autoplay=true&resume=true -- Azure Cloud Overview
+
+
+
+
+
+Visionet-Feb22-Python
+Python
+
+
+Bootcamp Curriculum: In the course of the Bootcamp, the following topics will be covered:
+
+
+
+Variables
+
+Conditions
+
+Iterations
+
+Python Internal Data Structures (Dictionaries, Lists, Sets, Tuples)
+
+Numpy Arrays and Pandas DataFrames/Series
+
+String Manipulation
+
+Working with Date/Time
+
+Object Oriented Programming
+
+Functions
+
+Python Lambda Functions
+
+Common Algorithms Practice - Sorting, Binary Search, parsing strings, patterns
+
+
+
+
+
+Reference Materials:
+
+
+Data Science Handbook - Jake van der Plus - link: https://jakevdp.github.io/PythonDataScienceHandbook/ 
+
+Download the above book: https://jp.1lib.in/book/2881971/d3ba3a 
+
+https://www.programiz.com/python-programming
+
+Teksands Jupyter Notebook  - https://drive.google.com/drive/u/0/folders/1P00F5L9G5trCRp56XIYUfQohmIcEuHTK
+
+
+Software Testing
+
+
+Bootcamp Curriculum: In the course of the Bootcamp, the following topics will be covered:
+
+
+
+Types of Testing
+
+Principles of Testing, V-Model
+
+Writing Test Scenarios and Test Cases - Unit, Functional and Integration
+
+Requirements Traceability Matrix
+
+Test Data Generation
+
+Boundary Value and Equivalence Partitioning
+
+Automation Testing overview with Selenium
+
+
+
+
+
+Reference Materials
+
+
+https://www.youtube.com/watch?v=T3q6QcCQZQg – Software Testing Tutorial
+
+https://www.linkedin.com/learning/software-testing-foundations-test-techniques/understanding-techniques?autoAdvance=true&autoSkip=false&autoplay=true&resume=true – Software Testing Foundations
+
+Agile / Jira
+
+
+Bootcamp Curriculum: In the course of the Bootcamp, the following topics will be covered:
+
+
+
+SDLC Methodologies
+
+Waterfall overview
+
+Agile Overview
+
+Scrum Overview
+
+Scrum Roles
+
+Scrum Events
+
+Product Backlog
+
+Sprints
+
+Using Jira through a Agile project lifecycle
+
+
+
+
+
+Reference Materials
+
+
+https://www.youtube.com/watch?v=9TycLR0TqFA – Scrum Overview
+
+https://www.youtube.com/watch?v=8dGdIcyDk1w – Scrum Overview
+
+https://www.linkedin.com/learning/agile-foundations/understanding-agile?autoAdvance=true&autoSkip=false&autoplay=true&resume=true – Agile Foundations
+
+https://www.atlassian.com/agile/tutorials/how-to-do-scrum-with-jira-software -- Jira Learning from Atlassian

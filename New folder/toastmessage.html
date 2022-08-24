@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToastMeassage</title>
+    <style>
+        .messagebox{
+            position: absolute;
+            bottom: 50px;
+            right: 20px;
+            background: #737d99d2;
+            max-width: 400px;
+            display: none;
+            transition: all 1s ease-in;
+        }
+        .toast-content{
+            position: relative;
+            padding: 10px;
+            margin: 10px;
+        }
+        .close-btn{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .close-btn > button{
+            cursor: pointer;
+            outline: none;
+            border: none;
+            padding: 5px;
+            background: none;
+            font-size: 20px;
+        }
+        .toast-message{
+            font-size: 18px;
+            color: #f3f3f3;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9vuAJ2xo5Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9vuAJ2xo5Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9vuAJ2xo5Ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="messagebox" id="messagebox">
+        <div class="toast-content">
+            <div class="close-btn">
+                <button id="messageclose">X</button>
+            </div>
+            <div class="toast-message">
+                <h4>
+                    For better View Use google Chrome or Mozilla Firefox
+                </h4>
+            </div>
+        </div>
+    </div>
+    <script>
+        var toastContainer = document.getElementById('messagebox');
+        var btn = document.getElementById('messageclose');
+        window.addEventListener('load',()=>{
+            toastContainer.style.display = 'block';
+        });
+        btn.addEventListener('click', ()=>{
+            toastContainer.style.display = 'none';
+        });
+        function indexAlert(msg){
+            alert(`To see ${msg} please Login or Register first`);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+saleforce Lighting experience
+setup -> home, object manager,app lanucher,search
+standard objects and fields 
+record details page , edit object&page
+
+Lightning we use standard and custom components
+
+sales account tab-> related, details,news,activity(new task,call,new event,email),chatter(post,poll, question)
+edit page - will edit the page componets
+edit object - wil change functionality of the object
+
+custom object and tabs
+custom fields and relationship
+text,textarea(long,rich)
+picklist and multipicklist
+
